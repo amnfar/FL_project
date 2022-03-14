@@ -66,3 +66,13 @@ GO_term_gene.csv = out_GO_DMR_or_DEG_in_GO_KEGG_BIOC_pathways_p_ls0.05.csv
 
 
 Category	Term	Count	%	PValue	Genes	List Total	Pop Hits	Pop Total	Fold Enrichment	Bonferroni	Benjamini	FDR	total_patients
+
+*******
+
+differentially_expressed_genes_exon.txt = differentially_expressed_genes_0fold0min_newColName.txt
+
+Differentially expressed genes in FL (14 tutor vs 4 normal) with RPKM values normalized on exon length.
+
+*******
+
+Folder named "chromatin_state_data" contains results for robustness analysis of mutation block-gene associations by evaluating seven chromatin states.
