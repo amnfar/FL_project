@@ -73,6 +73,9 @@ differentially_expressed_genes_exon.txt = differentially_expressed_genes_0fold0m
 
 Differentially expressed genes in FL (14 tutor vs 4 normal) with RPKM values normalized on exon length.
 
+#gene	differential_expression_T_test_p_value	4170686	4121361	4160468	4177987	4139696	4134005	4159170	4177601	4105105	4189200	4158726	4175837	4188900	4174905	SRR834983	SRR834986	SRR834984	SRR834985
+
+
 *******
 
 Folder named "chromatin_state_data" contains results for robustness analysis of mutation block-gene associations by evaluating seven chromatin states.
