@@ -262,7 +262,7 @@
 
 				<li><a href="https://amnfar.github.io/FL_project/data/differentially_expressed_genes_1.25Fd.txt"> differentially_expressed_genes_1.25Fd.txt</a>
 				 : List of differentially expressed genes in FL (14 tutor vs 4 normal) filtered on 1.25 fd. Quantile normalized RPKM levels for each gene in corresponding sample are given.
-					The RPKM values are calculated by gene length based on follwing refernce https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-021-02936-w). File has following coloumns: </li>
+					The RPKM values are calculated by gene length based on the method in Zhao et al. The file has following coloumns: </li>
 
  				<div class = "container-fluid col_names">
 				#gene&emsp;differential_expression_T_test_p_value&emsp;4170686/tumor&emsp;4177987_tumor&emsp;4160468_tumor&emsp;4121361_tumor&emsp;4159170_tumor&emsp;4134005_tumor&emsp;4139696_tumor&emsp;4177601_tumor&emsp;4105105_tumor&emsp;4175837_tumor&emsp;4158726_tumor&emsp;4189200_tumor&emsp;4174905_tumor&emsp;4188900_tumor&emsp;normal_gcb_cells_SRR834985&emsp;normal_gcb_cells_SRR834984&emsp;normal_gcb_cells_SRR834986&emsp;normal_gcb_cells_SRR834983
@@ -325,7 +325,8 @@
 				<p></p>
 				
 				<li ><a href="https://github.com/amnfar/FL_project/tree/main/data/Results%20of%20three%20tests%20(327%2C758%2C%20and%20959%20genes)%20on%207%20chromatin%20states"> Results of three tests (327,758, and 959 genes) on 7 chromatin states</a>
-				 : Folder contains results for robustness analysis of mutation block-gene associations by evaluating seven chromatin states with chromatin state data gethered from Hoffman etal .</li>
+				 : Folder contains results for robustness analysis of mutation block-gene associations by evaluating seven chromatin states with chromatin state data gethered from Hoffman etal.
+				 files contain absolute log10 of expected P-values for mutation block-gene testing in 10000 times random sampling.</li>
 				
 				<p></p>
 				<p></p>
@@ -354,9 +355,10 @@
 				<li> Batmanov, K., J. Delabie, and J. Wang, BayesPI-BAR2: A New Python Package for Predicting Functional Non-coding Mutations in Cancer Patient Cohorts. Front Genet, 2019. 10: p. 282.</li>
 				<li> Batmanov, K., et al., Integrative whole-genome sequence analysis reveals roles of regulatory mutations in BCL6 and BCL2 in follicular lymphoma. Scientific Reports, 2017.</li>
 				<li> Farooq, A., et al., HMST-Seq-Analyzer: A new python tool for differential methylation and hydroxymethylation analysis in various DNA methylation sequencing data. Computational and structural biotechnology journal, 2020. 18: p. 2877-2889.</li>
-
-				<li> Kretzmer, H., et al., DNA methylome analysis in Burkitt and follicular lymphomas identifies differentially methylated regions linked to somatic mutation and transcriptional control. Nat Genet, 2015. 47(11): p. 1316-25.</li>
 				<li> Hoffman, M.M., et al., Integrative annotation of chromatin elements from ENCODE data. Nucleic Acids Res, 2013. 41(2): p. 827-41. </li>
+				<li> Kretzmer, H., et al., DNA methylome analysis in Burkitt and follicular lymphomas identifies differentially methylated regions linked to somatic mutation and transcriptional control. Nat Genet, 2015. 47(11): p. 1316-25.</li>
+				<li> Zhao, Y., Li, M. C., Konaté, M. M., Chen, L., Das, B., Karlovich, C., ... & McShane, L. M. (2021). TPM, FPKM, or normalized counts? A comparative study of quantification measures for the analysis of RNA-seq data from the NCI patient-derived models repository. Journal of translational medicine, 19(1), 1-15.</li>
+
 			</ol>
 	</div>
 </div>
