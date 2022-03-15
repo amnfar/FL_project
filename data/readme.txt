@@ -78,4 +78,4 @@ Differentially expressed genes in FL (14 tutor vs 4 normal) with RPKM values nor
 
 *******
 
-Folder named "chromatin_state_data" contains results for robustness analysis of mutation block-gene associations by evaluating seven chromatin states.
+Folder named "Results of three tests (327,758, and 959 genes) on 7 chromatin states" contains results for robustness analysis of mutation block-gene associations by evaluating seven chromatin states.
