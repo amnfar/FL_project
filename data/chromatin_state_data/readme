@@ -1,9 +1,0 @@
-1. *_genes.tsv files contain the absolute of log10 transformed expected P-values for 10000 times random sampling test in the 7 chromatin states,
-    for each pair of mutation blocks-gene association , respectively.
-   These results cover three tests (327,758, and 959 genes) as mentioned in the manuscript.
-
-2, *_genesE_TSS1.3.tsv files show mutation blocks-gene pairs passed final filtering in 10000 times random sampling 
-   (mutation blocks with expected P-vaues<0.05 in either TSS or Enhancer chromatin state)
-   The final three lists of mutation blocks-gene corresponding to the results from three tests (327, 758, and 959 genes)-
-
- 
